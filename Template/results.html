@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">Phone Number Information</div>
+
+   <table cellspacing="0">
+      <tfoot>
+         <tr>
+             <th>Mobile Phone</th>
+             <td>
+                 <b>{{reviews[0][1]}}</b>
+             </td>
+         </tr>
+         <tr>
+             <th>Telecoms Circle / State</th>
+             <td>
+                 <b>{{reviews[1][1]}}</b>
+             </td>
+         </tr>
+         <tr>
+             <th>{{reviews[2][0]}}</th>
+             <td>
+                 <b>{{reviews[2][1]}}</b>
+             </td>
+         </tr>
+         <tr>
+             <th>{{reviews[3][0]}}</th>
+             <td>
+                 <b>{{reviews[3][1]}}</b>
+             </td>
+         </tr>
+         <tr>
+             <th>{{reviews[4][0]}}</th>
+             <td>
+                 <b>{{reviews[4][1]}}</b>
+             </td>
+         </tr>
+         <tr>
+             <th>{{reviews[5][0]}}</th>
+             <td>
+                 <b>{{reviews[5][1]}}</b>
+             </td>
+         </tr>
+         <tr>
+             <th>{{reviews[6][0]}}</th>
+             <td>
+                 <b>{{reviews[6][1]}}</b>
+             </td>
+         </tr>
+         <tr>
+             <th>{{reviews[7][0]}}</th>
+             <td>
+                 <b>{{reviews[7][1]}}</b>
+             </td>
+         </tr>
+         <tr>
+             <th>{{reviews[8][0]}}</th>
+             <td>
+                 <b>{{reviews[8][1]}}</b>
+             </td>
+         </tr>
+      </tfoot>
+   </table>
+</div>
+</body>
+</html>
