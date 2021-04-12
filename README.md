@@ -2,6 +2,8 @@
 
 This is doing with basic Python programming and solid touch with web scraping with python using Beautifulsoup.
 
+Do ⭐ the repository, if it helped you in anyway.
+
 ## Dependencies :
 1) bs4 python :- bs4 is used to grab the HTML elements or tags on a webpage.
 2) Mechanize :- we use mechanize to do our form submissions and clicks.
